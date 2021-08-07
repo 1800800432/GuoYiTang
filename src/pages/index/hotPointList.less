@@ -1,0 +1,49 @@
+.hotPointList{
+  width: 100%;
+}
+.List{
+  width: 100%;
+  height: 200px;
+  border-bottom: 1px solid rgb(248, 246, 246);
+  position: relative;
+}
+.hotPointIcon{
+  margin:25px;
+  width: 30%;
+  height: 150px;
+  border-radius:25px;
+}
+.title{
+  display: block;
+  font-size: 35px;
+  width: 45%;
+  overflow: hidden;//超出隐藏
+  white-space: nowrap;//不换行
+  text-overflow: ellipsis;//设置超出内容为省略号
+  position: absolute;
+  top:25px;
+  left: 35%;
+}
+.content{
+  
+  font-size: 35px;
+  width: 65%;
+  color: rgb(187, 185, 185);
+  position: absolute;
+  top:40%;
+  left: 35%;
+  overflow: hidden;//超出隐藏
+  text-overflow: ellipsis;//设置超出内容为省略号
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;//行数
+  
+}
+.time{
+  display: block;
+  font-size: 30px;
+  color: rgb(187, 185, 185);
+  position: absolute;
+  top:30px;
+  right: 20px;
+}
