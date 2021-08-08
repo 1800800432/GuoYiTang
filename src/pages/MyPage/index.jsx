@@ -12,6 +12,12 @@ import tizhi from '../../images/myPage/tizhi.png'
 import shoucang from '../../images/myPage/wodeshoucang.png'
 import pingjia from '../../images/myPage/wodpingjia.png'
 class Index extends Component {
+  ToMyInfo(){
+    Taro.navigateTo({
+      url:'../MyPage/login/MyInfo'
+    })
+  }
+
   ToMyRegistration(){
     console.log('准备跳转');
     Taro.navigateTo({
@@ -40,7 +46,7 @@ class Index extends Component {
   }
   ToMyCollection(){
     Taro.navigateTo({
-      url:'../MyPage/MyCollection/MyCollection'
+      url:'../MyPage/collection/collection'
     })
   }
   ToMyEvaluation(){
@@ -71,9 +77,9 @@ ToLogin(){
         <view className='at-col at-col-7 headerText'  onClick={this.ToLogin.bind(this)}>
           <Text>登录/注册</Text>
         </view>
-        <view className='at-col at-col-2 size=100px headerIcon'>
-        <AtIcon value='chevron-right' size='38' color='black' ></AtIcon>
-        </view>
+          <view className='at-col at-col-2 size=100px headerIcon'onClick={this.ToMyInfo.bind(this)}>
+            <AtIcon value='chevron-right' size='38' color='black' ></AtIcon>
+          </view>
 
         </view>
         {/*我的挂号/就诊人管理*/}

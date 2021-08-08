@@ -20,7 +20,7 @@ class Discrimina extends Component {
     })
   }
 
-  
+
   render () {
     return (
       <View className="back">

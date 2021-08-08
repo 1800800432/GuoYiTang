@@ -22,7 +22,7 @@ class InformationOfData extends Component{
 
 
         <view className="MeachInformation-data">
-          <navigator className="TaroButtonToNext" onClick={()=>{Taro.navigateTo({url:'/pages/constitutionDiscrimina/discriminaResult'})}}>🔍查看</navigator>
+          <navigator className="TaroButtonToNext" onClick={()=>{Taro.navigateTo({url:"/pages/constitutionDiscrimina/discriminaResult"})}}>🔍查看</navigator>
         </view>
       </view>
     )

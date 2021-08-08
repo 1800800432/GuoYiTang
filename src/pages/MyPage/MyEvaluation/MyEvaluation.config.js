@@ -1,3 +1,3 @@
 export default {
-  navigationBarTitleText: '我的评价'
+  navigationBarTitleText: '效果评价'
 }

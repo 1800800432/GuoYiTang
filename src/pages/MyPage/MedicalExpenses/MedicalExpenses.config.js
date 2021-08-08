@@ -1,3 +1,3 @@
 export default {
-  navigationBarTitleText: '就诊费用'
+  navigationBarTitleText: '费用详情'
 }
