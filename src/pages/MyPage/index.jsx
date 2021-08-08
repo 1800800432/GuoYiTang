@@ -21,12 +21,12 @@ class Index extends Component {
   ToMyRegistration(){
     console.log('准备跳转');
     Taro.navigateTo({
-      url:'../MyPage/MyRegistration/MyRegistration'
+      url:'../MyPage/MyUpNum/MyUpNumindex'
     })
   }
   ToPatientManagement(){
     Taro.navigateTo({
-      url:'../MyPage/PatientManagement/PatientManagement'
+      url:'../MyPage/toMyUpNumManager/MyUpNumManager'
     })
   }
   ToHealthRecords(){
